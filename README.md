@@ -4,12 +4,13 @@
 
 This respitory contains code from Light Field Depth Estimation on Off-the-Shelf Mobile GPU - CVPRW 2018.
 
-Code inlucded are only the core part of the complete Android code (C and GPU code)
+Only core parts of the code are included (C and GPU code)
 
 The synthetic light field image are obtained from [HCI](http://hci-lightfield.iwr.uni-heidelberg.de/) and real light field image are captured using Lytro illum and decoded using [Light Field Toolbox](http://hci-lightfield.iwr.uni-heidelberg.de/). The light field are decoded into a .png format and cropped into a 5x5 angular resolution due to Android memory limitation. Samples of light field images used in the paper are included in the [LightField ](https://github.com/andreivan/CAE-Mobile-GPU/tree/master/LightField) folder.
 
 The Android.mk and application.mk files are included to enable OpenCL on Android. The neccesarry OpenCL include and .so files are also included.
 
+*The android .apk files are available by request.
 
 ### Libraries
 
