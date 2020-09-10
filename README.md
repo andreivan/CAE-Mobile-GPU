@@ -34,8 +34,8 @@ The Android.mk and application.mk files are included to enable OpenCL on Android
 
 python script that runs on cross-platform supporting pyopencl.
 
-<img src="./python/samples/Mona_crop_result.png" align="left" alt="Mona_crop_result"/>
-<div></div>
+<img src="./python/samples/Mona_crop_result.png" alt="Mona_crop_result"/>
+
 
 
 
